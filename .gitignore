@@ -1,0 +1,9 @@
+# Ignore images and large files
+*.jpg
+*.png
+*.gif
+*.jpeg
+*.bmp
+*.webp
+*.tiff
+*.svg
