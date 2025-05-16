@@ -10,6 +10,7 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -20,8 +21,8 @@
         </div>
       </header>
 
-      <main class="flex-grow-1 d-flex flex-column overflow-hidden">
-        <div class="gallery">
+      <main class="flex-grow-1 d-flex flex-column">
+        <div class="gallery pb-5">
           <div class="img-container">
             <img src="src/images/img-1.jpg" alt="img-1" />
           </div>
@@ -44,13 +45,17 @@
             <img src="src/images/img-7.jpg" alt="img-6" />
           </div>
         </div>
+
+        <div id="map"></div>
       </main>
 
       <footer class="flex-shrink-0 text-center text-lg-start">
-        <div class="text-center p-3 pt-0">
+        <div class="text-center p-3">
           © 2025 Copyright: Martin
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
